@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/navigation/static/css/main.9f3f1155.chunk.css",
+    "main.js": "/navigation/static/js/main.589f2b20.chunk.js",
+    "main.js.map": "/navigation/static/js/main.589f2b20.chunk.js.map",
+    "runtime-main.js": "/navigation/static/js/runtime-main.4251e07a.js",
+    "runtime-main.js.map": "/navigation/static/js/runtime-main.4251e07a.js.map",
+    "static/js/2.d5cd70a5.chunk.js": "/navigation/static/js/2.d5cd70a5.chunk.js",
+    "static/js/2.d5cd70a5.chunk.js.map": "/navigation/static/js/2.d5cd70a5.chunk.js.map",
+    "index.html": "/navigation/index.html",
+    "precache-manifest.5c7cf0addad9af91519a54b8f5327b66.js": "/navigation/precache-manifest.5c7cf0addad9af91519a54b8f5327b66.js",
+    "service-worker.js": "/navigation/service-worker.js",
+    "static/css/main.9f3f1155.chunk.css.map": "/navigation/static/css/main.9f3f1155.chunk.css.map",
+    "static/js/2.d5cd70a5.chunk.js.LICENSE": "/navigation/static/js/2.d5cd70a5.chunk.js.LICENSE",
+    "static/media/App.css": "/navigation/static/media/joao-marcelo-martins-background-unsplash.231ffc42.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4251e07a.js",
+    "static/js/2.d5cd70a5.chunk.js",
+    "static/css/main.9f3f1155.chunk.css",
+    "static/js/main.589f2b20.chunk.js"
+  ]
+}
