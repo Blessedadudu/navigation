@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./joao-marcelo-martins-background-unsplash.jpg')center/cover fixed;
+}
+.nav_icon {
+  font-size: 20px;
+  padding: 15px;
+  top: 0;
+  background: rgba(58, 53, 53, 0.377);
+  color: rgb(235, 232, 232);
+}
+
+.nav_icon i{
+  color: white
+}
+.nav_icon ul {
+  float: right;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_icon ul li {
+  display: inline;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+.nav_icon ul li:hover {
+  color: #fff
+} 
+
+#fa-align-justify {
+  display:none;
+  float: right;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .nav_icon {
+    font-size: 18 px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fa-align-justify {
+    display: inline-block;
+    cursor: pointer
+  }
+  #fa-align-justify {
+    display: block;
+    float: right;
+  }
+  .nav_list {
+    display: none;
+  }
+  .nav_list.opened {
+    display: block;
+    position: relative;
+    font-size:15px;
+    background: rgba(58, 53, 53, 0.082);
+    width: 100vw;
+    top: 13px;
+    left: -15px;
+    border-top: 1px solid rgb(255, 250, 250)
+  }
+  .nav_icon ul {
+    float: none;
+    list-style: none;
+  }
+  .nav_icon ul li {
+    display: block;
+    padding: 5px;
+    padding-left: 10px
+  }
+}
